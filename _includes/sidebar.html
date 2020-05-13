@@ -1,10 +1,15 @@
 {% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
 
+  <video src="{{ site.baseurl }}/assets/out.mp4" style="width: 100%" controls></video>
+
+
   <div class="profile-container">
 
     {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <!--<img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    -->
+
     {% endif %}
 
     {% if sidebar.name %}
@@ -16,6 +21,8 @@
     {% endif %}
 
   </div><!--//profile-container-->
+
+
 
   {% include contact.html %}
 

@@ -3,61 +3,80 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: BrokenG
+    tagline: UX Developer & DJ
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: brokengdnb@gmail.com
+    person: #Jakub Křižka
+    location: Roosendaal (Netherlands)
+    phone: #(+31) 627 960 875
+    website: #do not add http://
+    linkedin: brokeng
+    github: brokengdnb
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: #'@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: English
+      - idiom: Czech, Slovakia, Poland
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Dutch, Spanish
+        level: Basics
         
     interests:
-      - item: Climbing
-        link:
+      - item: PC - Apex Legends
+        link: https://dreamteam.gg/apex/profile/pc/geenloop
 
-      - item: Snowboarding
-        link:
+      - item: PC - League of Legends & TFT (EUNE)
+        link: https://www.leagueofgraphs.com/summoner/eune/DrunkenLOLko
 
-      - item: Cooking
-        link:
+      - item: PC - Left 4 Dead (2) & CS:Source
+        link: https://steamcommunity.com/id/geenloop
+
+      - item: Hokey - IIHF World Championship
+        link: https://www.sport.cz/hokej/ms-2020/clanek/1108625-program-ms-v-hokeji-2020.html
+
+      - item: Music - Noisia Radio (since 2016)
+        link: https://soundcloud.com/noisiaradio
+
+      - item: Color Music Radio (since 2014)
+        link: http://icecast8.play.cz/color128.mp3
+
+      - item: Red Head Day festival (since 2017)
+        link: https://www.redheaddays.nl
+
+      - item: Ultra Music Festival (since 2015)
+        link: https://ultramusicfestival.com
+
+      - item: Camping & Snowboarding & Skating
+        link: https://cdn.wintersport.nl/destinations/2/39801.jpg?w=1280
+
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Everybody lies but I’m able to make my lie comes true. Honestly, I was born as Aquarius, plus left-handed ginger and really I care only about one thing... FREEDOM. Physical, mental as well as spiritual. I'm unstable, lazy, crazy, manipulative, melancholic introvert looking for any problem to solve or minimaly make more confortable.
 
-      Second paragraph if required.
+      Back in 2013, I get an idea to become a programmer, not to be limited and start to do things by myself. No school, no teacher, no friend... just Google and Youtube. It took me over an year to get a seat at programming company, then another two years to realize what I really whould like to achieve, then another almost half a decade to make it done. And yet, it's not finished, not even close and it'll never be, that idea is evolving along with me and my skills. It's not perfect, It's not buletproof and It's pretty broken but it supposed to be. Because it's made for creating, mixing and making broken-beats of any kind, any genre, any tempo at any time. It is made for broken people with a broken mind as well as the heart to fell a little bit fixed. Even for just a moment. That’s EMI - Elegant Mixing Interface …my leftover, masterpiece, a personal project including another couple of sub-projects for extended controls mapping and screen (skin) rendering, yes a “music”. Just another way how to drop the bass.
+
+      > We create machines to do our jobs, to take over us, to solve our problems. We are the "creators" of the future living in a present which is based on our past. No matter how far... we can’t run away, we can only disconnect for a moment, until the final one.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Telecomunications (EU Baccalaureate)
+      university: SPŠE IT Kounicova 16, Brno
+      time: 2011 - 2015
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,134 +85,143 @@ education:
         pretium quis, sem.
 
           - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
           - Bullet point
-          - Bullet point 
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Crew
+      land: NL
+      time: 2017 - 2019
+      company:  Hazeldonk West - MC'Donalds
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Second job in Netherlands. Kind of restart, start at kitchen without Dutch language, I didn't even know numbers and after 2 years full-time, Ik ben drive, run, kassa, alles... Ik mach een beetje Nederlands spreken, geen problem.
 
-          - Bullet point
-          - Bullet point 
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Warehouse worker
+      land: NL
+      time: summer 2017
+      company: Oud Gastel - CEVA Logistic
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        First job in Netherlands. After 3 months I was on all positions. As a material picker, scanner, box sealer, loading alles.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Smart-TV Developer
+      land: CZ
+      time: winter 2016
+      company: Brno - Mautilus s.r.o.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Work on custom SDK, framework for creating smart TV applications. Audio, Video and Subtitles processing, REST API rendering and requests.
 
-          - Bullet point
-          - Bullet point
+        Closed Source.
+
+          - HTML5 + SCSS
+          - ES5 + jQuery
+          - MauSDK
+          - Smart-TV API (Samsung, LG, Sony etc.)
+
+    - role: Front-End Developer
+      land: CZ
+      time: summer 2016
+      company: Brno - TechFidget s.r.o.
+      details: |
+        Temporary extra help on D-SYNC project for an American investor to build a real-time API application. Which allows to managers import external API, CSV, JSON or almost anything into their project, database or applications without programming skills, drag & drop API technique. The result was for example add a new feauture or send filtered data from database into another server or app without changing the original base code. Pretty amazing, it worked.
+
+        Closed Source.
+
+          - HTML5 + LESS
+          - ES5 + AngularJS
+          - REST API
+          - JAVA (Selenium tests)
+
+    - role: Web Master
+      land: CZ
+      time: 2015 - 2016
+      company: Brno - Pecka Design s.r.o.
+      details: |
+        My first job as a "programmer" alias "Web Master". I did everything, learned their SDK, PHP, javascript as well as whole "E-Shop" process from an idea into the final product as well as delivery. Bug-fixing, testing new features and comunicate with clients.
+
+        Closed Source.
+
+          - HTML5 + SCSS
+          - ES5 + jQuery
+          - PHP5 + Nette framework
+
+    - role: Passive Call-centrum Operator
+      land: CZ
+      time: 2013 - 2015
+      company: Brno - Telefonica O2 a.s.
+      details: |
+        Passive callcetrum for Czech & Slovak resident customers using ADSL Internet, TV and a link phone. Another year I also take care of Pre-Paid & Post-Paid SIM customers, Internet Fiber (Optics), as well as "BACK office" and special temporary active projects for banks and other customers. I get skill how to sell anything to anyone alias how to find out the "need" and figure out a way, how to sell almost anything.
+          - marketing
+          - administation
+          - comunication
+
+        In the meantime of this I was learning programming by myself, how to operate with database as well as server(s) and website(s) from home, just by Google and Youtube. Then I bought my first server (DELL 2950) witch was older than my first computer. In spring 2014 I setup server into my first Datacentrum (Faster s.r.o.)
+
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Personal Projects
+    intro:
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: AVA - DATA
+        img: /assets/images/ava-data.png
+        link: https://github.com/brokengdnb/ava-data/
+        tagline: "Custom REST-API server with Youtube integration, creating visual playlist network, downloading and compiling media files for AVA-TV"
+        platform: Webkit (Safari, Chrome, Firefox, Opera)
+        source: Vis.js, MongoDB, Node.JS, AngularJS, Youtube API, Material
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: AVA - TV
+        img: /assets/images/ava-data.png
+        link: https://github.com/brokengdnb/ava-data/
+        tagline: "Real-time multimedia player with synchronized streaming on multiple devices at the same time. Controlled from multiple points/devices"
+        platform: Webkit (Safari, Chrome, Firefox, Opera)
+        source: Vis,js, Socket.IO, Node.JS, AngularJS, Vynchronize, Material
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: EMI - Elegant Mixing Interface
+        img: /assets/images/emi.png
+        link: https://github.com/brokengdnb/emi/
+        tagline: "DJ mixing program with custom skin, controls, mapping as well as effects and other stuff to drop not just Drum & Bass music"
+        platform: mac OS, Linux, Windows
+        source: C++, XML, ES5, MIDI, Mixxx
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: ME - Markdown Editor
+        img: /assets/images/me.png
+        link: https://github.com/brokengdnb/me/
+        tagline: "A simple, minimal, offline, dark themed cross-platform bundled app for real-time editing .md files with elegant and comfort first."
+        platform: mac OS, Linux, Windows
+        source: Electron, jQuery, Node.JS, editor.md
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 
 publications:
-    title: Publications
+    title: Official Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Translation of Semantic Versioning documantation into my natural (Czech) language.
+        authors: J. Křižka (author), Z. Bertová (corector), A. Pařízek (corector), J. Barášek (corector)
+        conference: semver.org (2014)
+        link: https://semver.org/lang/cs/
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: HTML5, CSS3, ES5, GIT
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: AngularJS, NodeJS, jQ
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: Mac, BSD, Linux, bash
+        level: 70%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: PHP, Perl, Python, Ruby
         level: 60%
+
+      - name: C++ (Arduino + MIDI I/O)
+        level: 50%
+
+      - name: ES6 - Typescrypt, React
+        level: 35%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

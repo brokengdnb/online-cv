@@ -10,17 +10,19 @@
     {{ publications.title }}
   </h2>
 
-  {% if publications.intro %}
+  <!--{% if publications.intro %}
   <div class="intro">
     {{ publications.intro | markdownify }}
-  </div><!--//intro-->
-  {% endif %}
+  </div>&lt;!&ndash;//intro&ndash;&gt;
+  {% endif %}-->
 
   {% for publication in publications.papers %}
   <div class="item">
-    <div class="publication-title">{{ publication.title }}</div>
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+    <a href="{{ publication.link }}">
+      <div class="publication-title">{{ publication.title }}</div>
+      <div class="publication-authors">{{ publication.authors }}</div>
+      <div class="publication-conference">{{ publication.conference }}</div>
+    </a>
   </div><!--//item-->
   {% endfor %}
 

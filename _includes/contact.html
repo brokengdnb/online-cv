@@ -1,15 +1,27 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
-    {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+    {% if sidebar.person %}
+    <li class="person" style="margin-left: 2px"><i class="fas fa-user"></i>
+      {{ sidebar.person }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.location %}
+    <li class="location"><i class="fas fa-location-arrow"></i>
+      {{ sidebar.location }}
     </li>
     {% endif %}
 
     {% if sidebar.phone %}
     <li class="phone"><i class="fas fa-phone"></i>
       <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
     </li>
     {% endif %}
 
@@ -20,7 +32,7 @@
     {% endif %}
 
     {% if sidebar.linkedin %}
-    <li class="linkedin"><i class="fab fa-linkedin"></i>
+    <li class="linkedin"><i class="fab fa-linkedin" style="width: 18px; margin-left: 1px; margin-right: 4px"></i>
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
     </li>
     {% endif %}
@@ -44,7 +56,7 @@
     {% endif %}
 
     {% if sidebar.twitter %}
-    <li class="twitter"><i class="fab fa-twitter"></i>
+    <li class="twitter"><i class="fab fa-twitter" style="width: 18px"></i>
       <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
     </li>
     {% endif %}

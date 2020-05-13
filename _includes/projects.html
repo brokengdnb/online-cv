@@ -17,17 +17,34 @@
   {% endif %}
 
   {% for project in projects.assignments %}
+  <a href="{{ project.link }}">
+
     <div class="item">
+      <div class="demo">
+        <img src="{{ project.img }}" style=""/>
 
-      <span class="project-title">
-        <a href="{{ project.link }}">{{ project.title }}</a>
-      </span>
+      </div>
+      <div>
+           <h2 class="project-title">
+             <b>{{ project.title }}</b>
+          </h2>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
 
-    </div><!--//item-->
+
+        {% if project.tagline %}
+        <p class="project-tagline">{{ project.tagline }}</p>
+        {% endif %}
+        <ul class="project-source">
+          <li>{{ project.source }}</li>
+          </ul>
+        <i style="float: right" class="project-platform">{{ project.platform }}</i>
+      </div>
+
+
+
+    </div>
+  </a>
+  <!--//item-->
   {% endfor %}
 
 </section><!--//section-->
